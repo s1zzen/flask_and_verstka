@@ -1,0 +1,15 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sergejbaskakov\/Desktop\/Python\/flaskTest--Testassets\/app\/static\/main\.scss}line{font-family:\000034}}
+.content-navigation {
+  border-color: #3bbfce;
+  color: #2ca2af; }
+
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sergejbaskakov\/Desktop\/Python\/flaskTest--Testassets\/app\/static\/main\.scss}line{font-family:\000039}}
+  .border {
+    padding: 8px;
+    margin: 8px;
+    border-color: #3bbfce; }
+
+    @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sergejbaskakov\/Desktop\/Python\/flaskTest--Testassets\/app\/static\/main\.scss}line{font-family:\0000315}}
+    h1 {
+      font-size: 100px;
+      background-color: #3bbfce; }

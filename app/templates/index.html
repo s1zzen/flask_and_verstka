@@ -1,0 +1,65 @@
+{% extends 'main.html' %}
+
+{% block body %}
+
+<div id="cursor"></div>
+
+<header class="home-header">
+
+	<div class="top-line">
+		<a href="#" class="logo">
+			<span class="logo__img-wrapper">
+				<img src="{{ url_for('static', filename='images/logo.svg') }}" alt="Вездеход" class="logo__images">
+			</span>
+			<span class="logo__text">Вездеход</span>
+		</a>
+		<div class="top-line__decoration asdf"></div>
+		<div class="top-line__contacts">
+			Телефон: <span class="top-line__numbers">+7(965) 351-53-47</span>
+			<span class="top-line__separator"></span>
+			<span class="top-line__address">Почта:<span class="top-line__text">dbaskaktyuzxc@gmail.com</span>
+			</span>
+		</div>
+		<div class="top-line__decoration"></div>
+		<div class="menu-button-container">
+			<a href="#" class="menu-button"></a>
+		</div>
+	</div>
+
+	<div class="home-header__content">
+
+		<aside class="home-aside">
+
+			<div class="home-aside__decoration asdf"></div>
+			<div class="home-aside__soc">
+				<div class="home-aside__soc-items">
+					<a href="https://www.instagram.com/asklimanov" class="soc-item" target="_blank"><img
+							src="{{ url_for('static', filename='images/soc/instagram-brands.svg') }}"
+							alt="Instagram"></a>
+					<a href="https://vk.com/agragregra" class="soc-item" target="_blank"><img
+							src="{{ url_for('static', filename='images/soc/vk-brands.svg') }}" alt="ВКонтакте"></a>
+					<a href="https://vk.com/agragregra" class="soc-item" target="_blank"><img
+							src="{{ url_for('static', filename='images/soc/facebook-f-brands.svg') }}"
+							alt="Facebook"></a>
+					<a href="https://twitter.com/agragregra" class="soc-item" target="_blank"><img
+							src="{{ url_for('static', filename='images/soc/twitter-brands.svg') }}" alt="Twitter"></a>
+				</div>
+			</div>
+			<div class="home-aside__share-icon"></div>
+
+		</aside>
+
+		{% include '_slider_contant.html' %}
+	</div>
+
+</header>
+
+{% include '_micromodal.html' %}
+
+<script src="{{ url_for('static', filename='libs/swiper/swiper-bundle.min.js') }}"></script>
+<script src="{{ url_for('static', filename='libs/micromodal/micromodal.min.js') }}"></script>
+<script src="{{ url_for('static', filename='libs/gsap/gsap.min.js') }}"></script>
+
+<script src="{{ url_for('static', filename='js/common.js') }}"></script>
+
+{% endblock %}
